@@ -1,0 +1,44 @@
+.app__home{
+    width: 100vw;
+    height: 100vh;
+    background: url('../assests/room.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.home__context{
+    padding-top: 10%;
+    margin-bottom: 18%;
+}
+
+.home__searchbar{
+    width: 80%;
+    height: 15%;
+    border: 1px solid white;
+    background: rgb(250, 255, 240);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0.8;
+}
+
+.home__searchbar__city,
+.home__searchbar__dates,
+.home__searchbar__guests,
+.home__searchbar__searchbutton
+{
+z-index: 11;    
+display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 160px;
+    background-color: white;
+}

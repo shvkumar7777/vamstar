@@ -1,0 +1,55 @@
+.app__navbar{
+    display: flex;
+    width: 100vw;
+    height: 46px;
+    /* border: 2px solid rgb(165, 157, 157); */
+    align-items: center;
+    justify-content: space-between;
+    z-index: 9;
+    position: absolute;
+}
+
+.app__logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.app__logo img{
+    width: 90px;
+}
+
+.app__items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2px 2px;
+    padding: 6px;
+}
+
+
+.navbar__links{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-around;
+    padding-right: 10px;
+}
+
+.navbar__links li{
+    margin: 3px;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+.navbar__button{
+    padding: 9px;
+    margin-right: 10px;
+}
+
+.navbar__button button{
+    width: 70px;
+    padding: 6px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
