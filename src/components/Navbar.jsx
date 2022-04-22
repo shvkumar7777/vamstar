@@ -11,8 +11,8 @@ function Navbar() {
         </div>
         <div className='app__items'>
           <ul className='navbar__links'>
-              <li><a href='#Explore'>Explore</a></li>
-              <li><a href='#Aboutus'>About Us</a></li>
+              <li><a href='#explore'>Explore</a></li>
+              <li><a href='#aboutus'>About Us</a></li>
               <li><a href='#cities'>Cities</a></li>
           </ul>
           <div className='navbar__button'>
